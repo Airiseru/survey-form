@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Survey Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rokkitt:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="top">
+            <h1 id="title">Event Survey Form</h1>
+            <p id="description">Please Fill Out This Form So That We Can Make A Much Better Experience For You :)</p>
+            <p id="plug">Made by <a href="https://github.com/Airiseru" target="_blank">Airiseru</a></p>
+        </div>
+        <form action="#" id="survey-form">
+            <label for="name" id="name-label" class="label">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <label for="email" id="email-label" class="label">Email</label>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            <label for="age" id="number-label" class="label">Age</label>
+            <input type="number" id="number" min="1" max="3" required placeholder="Enter Your Age">
+            <label for="dropdown" class="label">What Grade Are You In?</label>
+            <select name="grade" id="dropdown">
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <section id="checklist">
+                <label for="booths" class="label">Which Booths Did You Visit?</label>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="yellowa" value="yellow">
+                    <label for="yellowa">Yellowa</label>
+                </div>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="reodety" value="reodety">   
+                    <label for="reodety">Reodety</label>    
+                </div>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="lorestimo" value="lorestimo">
+                    <label for="lorestimo">Lorestimo</label>    
+                </div>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="aquatice" value="aquatice">
+                    <label for="aquatice">Aquatice</label>    
+                </div>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="omegate" value="omegate">
+                    <label for="omegate">Omegate</label>    
+                </div>
+                <div id="option">
+                    <input type="checkbox" name="booths" id="booths" id="spiritice" value="spiritice">
+                    <label for="spiritice">Spiritice</label>     
+                </div>
+            </section>
+            <section id="radio-enjoy">
+                <label for="radio" class="label">Did You Enjoy This Event?</label>
+                <div id="option">
+                    <input type="radio" name="radio" id="yes" id="radio" checked value="yes">
+                    <label for="yes" id="radio">Of Course!</label>
+                </div>
+                <div id="option">
+                    <input type="radio" name="radio" id="little" id="radio" value="little">
+                    <label for="little" id="radio">A Little</label>   
+                </div>
+                <div id="option">
+                    <input type="radio" name="radio" id="no" id="radio" value="no">
+                    <label for="no" id="radio">Not At All</label>  
+                </div>
+                <div id="option">
+                    <input type="radio" name="radio" id="unsure" id="radio" value="unsure">
+                    <label for="unsure" id="radio">Not Sure</label>   
+                </div>
+            </section>
+
+            <label for="comment" class="label">What did you like / dislike about this event? Why? Any other comments or suggestions?</label>
+            <textarea name="comment" id="comment" cols="10" rows="5" placeholder="Enter Comment Here..."></textarea>
+            <input type="submit" id="submit">
+        </form>  
+    </div>
+    
+</body>
+</html>

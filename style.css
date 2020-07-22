@@ -1,0 +1,98 @@
+html {
+  background-color: #E08DAC;
+}
+
+a, #plug {
+  width: 85%;
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: black;
+  color: #E08DAC;
+}
+
+a:hover {
+  color: #57E2E5;
+}
+
+.top {
+  text-align: center;
+  color: black;
+  padding: 1em;
+  font-family: 'Rokkitt', serif;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+#description {
+  margin: .5em 1em;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#survey-form {
+  background-color: #153131; 
+  color: white;
+  display: grid;
+  width: 75%;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-family: 'Rokkitt', serif;
+  box-shadow: .25em .25em black;
+}
+
+.label {
+  display: flex;
+  padding: .5em 0;
+  font-size: 18px;
+}
+
+label, input, #dropdown, #checklist {
+  margin: 0 0 .25em;
+}
+
+#name, #email, #number, #dropdown{
+  padding: 2%;
+  box-shadow: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: .25em .25em black;
+}
+
+#comment {
+  resize: vertical;
+  margin-bottom: 5%;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: .25em .25em black;
+}
+
+#option{
+  display: block;
+  padding: .5em;
+}
+
+#submit {
+  background-color: #57E2E5;
+  font-size: 18px;
+  padding: .5em;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  box-shadow: .25em .25em black;
+}
+
+@media screen and (min-width: 700px)
+{
+  #survey-form {
+    width: 60%;
+  }
+
+  a, #plug {
+    width: 65%;
+  }
+}
